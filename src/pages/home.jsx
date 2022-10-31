@@ -11,6 +11,13 @@ export const Home = () => {
             setUsers(res.data);
         });
     };
+
+    const deleteUser = (id) => {
+        backend.delete('/users/' + id).then((res) => {
+            fetchAllUsers();
+        });
+    };
+
     return (
         <main>
             <h2>List Of Users</h2>
