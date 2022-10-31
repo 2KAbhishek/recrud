@@ -4,28 +4,20 @@ import {Routes, Route, Link} from 'react-router-dom';
 import {Home} from './pages/home';
 import {Create} from './pages/create';
 import {Edit} from './pages/edit';
+import {View} from './pages/view';
 
 function App() {
     return (
-        <div className='App'>
-            <nav className='navbar navbar-expand navbar-darg bg-dark'>
-                <div className='navbar-nav mr-auto'>
-                    <li>
-                        <Link className='nav-link' to={'/'}>
-                            LaReCRUD
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='nav-link' to={'/create'}>
-                            Create
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='nav-link' to={'/edit'}>
-                            Edit
-                        </Link>
-                    </li>
-                </div>
+        <div className='App container'>
+            <nav class="navbar navbar-light bg-light">
+            <Link className='mx-2 navbar-brand' to={'/'}> LaReCrud </Link>
+             <ul class="nav nav-pills">
+                <li>
+                    <Link className='btn btn-success mx-2' to={'/create'}>
+                        Create
+                    </Link>
+                </li>
+            </ul>
             </nav>
             <div className='container'>
                 <Routes>
