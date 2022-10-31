@@ -29,8 +29,8 @@ export const Home = () => {
                             <td>{user.id}</td>
                             <td>{user.name}</td>
                             <td>{user.email}</td>
-                            <td><Link className="btn btn-info"
-                            to={{ pathname:"/edit/"+user.id }}>Edit</Link></td>
+                                <Link className="btn btn-warning" to={{ pathname:"/view/"+user.id }}>View</Link>
+                                {' '}
                         </tr>
                     ))}
                 </tbody>
