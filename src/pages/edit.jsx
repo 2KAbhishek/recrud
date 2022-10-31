@@ -26,7 +26,7 @@ export const Edit = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    backend.post("/users", inputs).then((res) => {
+    backend.put("/users/"+id, inputs).then((res) => {
       navigate("/");
     });
   };
