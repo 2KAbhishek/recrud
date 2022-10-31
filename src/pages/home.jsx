@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+import { Link } from 'react-router-dom';
 import backend from '../backend';
 export const Home = () => {
     const [users, setUsers] = useState([]);
@@ -28,7 +29,8 @@ export const Home = () => {
                             <td>{user.id}</td>
                             <td>{user.name}</td>
                             <td>{user.email}</td>
-                            <td>edit</td>
+                            <td><Link className="btn btn-info"
+                            to={{ pathname:"/edit/"+user.id }}>Edit</Link></td>
                         </tr>
                     ))}
                 </tbody>
