@@ -9,9 +9,9 @@ import {View} from './pages/view';
 function App() {
     return (
         <div className='App container'>
-            <nav class="navbar navbar-light bg-light">
+            <nav className="navbar navbar-light bg-light">
             <Link className='mx-2 navbar-brand' to={'/'}> LaReCrud </Link>
-             <ul class="nav nav-pills">
+             <ul className="nav nav-pills">
                 <li>
                     <Link className='btn btn-success mx-2' to={'/create'}>
                         Create
