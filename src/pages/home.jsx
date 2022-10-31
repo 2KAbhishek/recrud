@@ -31,6 +31,8 @@ export const Home = () => {
                             <td>{user.email}</td>
                                 <Link className="btn btn-warning" to={{ pathname:"/view/"+user.id }}>View</Link>
                                 {' '}
+                                <Link className="btn btn-danger" onClick={() =>
+                                    {if (window.confirm('Are you sure you wish to delete this item?')) deleteUser(user.id)}}>Delete</Link>
                         </tr>
                     ))}
                 </tbody>
