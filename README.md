@@ -20,29 +20,23 @@
 <a href="https://github.com/2KAbhishek/recrud/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/recrud?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="recrud Demo">
-  <br/>
-  <figcaption>recrud screenshot</figcaption>
-</figure>
+<h3>CRUD React Consumer 🍦🌐</h3>
 
 </div>
 
 ## What is this
 
-recrud is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+recrud is a React API consumer created for demonstrating Laravel-React integration.
 
 ## Inspiration
 
-recrud was inspired by `<reason/idea>`.
+Wanted to try React and Laravel together for a POC
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `npm`
 
 ## Getting recrud
 
@@ -51,51 +45,17 @@ To get recrud, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/recrud
 cd recrud
-<install_command>
-```
-
-## Using recrud
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+npm install
+npm start
 ```
 
 ## How it was built
 
-recrud was built using `<tech/library>`
-
-## Challenges faced
-
-While building recrud the main challenges were `<issue/difficulty>`
+recrud was built using `neovim`
 
 ## What I learned
 
-While building recrud I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Learned about React and Laravel integration.
 
 Hit the ⭐ button if you found this useful.
 
@@ -105,4 +65,3 @@ Hit the ⭐ button if you found this useful.
 
 <a href="https://github.com/2KAbhishek/recrud">Source</a> | <a href="https://2kabhishek.github.io/recrud">Website</a>
 
-</div>
